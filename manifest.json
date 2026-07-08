@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "quickTest",
+  "version": "1.0",
+  "description": "Testing chrome.runtime.connect() in User Scripts",
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "userScripts"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {}
+}
